@@ -689,12 +689,12 @@ p.p4{
     margin-left: 7px;
 }
 .left1 > h1{
-    background-image: url("img/apple.png");
-
-     background-clip: text;
+    background-image: linear-gradient(to left,#FF6432, green, blue);
+    background-clip: text;
     --webkit-background-clip: text;
     color: transparent;
     --webkit-text-fill-color: transparent;
+    font-size: 4rem;
 }
 /* --------------- MEDIA QUERIES-------------------- */
 @media screen and (max-width: 1050px) {

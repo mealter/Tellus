@@ -690,7 +690,8 @@ p.p4{
 }
 .left1 > h1{
     background-image: url("img/apple.png");
-    background-clip: text;
+
+     background-clip: text;
     --webkit-background-clip: text;
     color: transparent;
     --webkit-text-fill-color: transparent;

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+}
+div{
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: brown;
+    margin-left: auto;
+}
+
+
+
+
+/*------------------------- MEDIA QUERY-------------- */
+@media only screen and (max-width: 900px){
+    body{
+        background-color: rgb(146, 82, 82);
+    }
+}
+
+
+
+
